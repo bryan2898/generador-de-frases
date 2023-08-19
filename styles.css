@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(255, 103, 103);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    height: 100vh;
+
+
+.container{
+    padding: 10px;
+    background-color: darkslategrey;
+    border-radius: 6px;
+    width:400px;
+    height: 150px;
+    box-shadow: 10px 10px 5px 0px black;
+}
+.words{
+    background-color: aqua;
+    padding:  10px;
+    border-radius: 5px;
+}
+
+.autor{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#generate-btn{
+    background-color: darkcyan;
+    color: beige;
+    margin: 20px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 5s;
+}
+
+#generate-btn:hover{
+    background: blue;
+
+}
+#generate-btn:active{
+    transform: translate(2px, 2px);
+
+}
